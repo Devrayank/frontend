@@ -8,6 +8,7 @@ const routes: Routes = [
   { path:'aboutus',component : AboutusComponent },
   { path:'',component : HomeComponent },
   { path:'site-visits',component : VisitsComponent },
+  { path:'other',component : VisitsComponent },
   { path:'signup',component : RegisterComponent },
 ];
 
