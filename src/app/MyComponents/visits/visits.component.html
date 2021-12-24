@@ -1,0 +1,15 @@
+  <div class="row">
+  <div class="col-md-12">
+  <div class="col-md-3"   *ngFor= "let well of wells.WellData">
+   <p> {{well.wellname}}</p> 
+   
+   <p>$ {{well.price}}</p>
+
+
+    <button mat-stroked-button color="primary" (click)="AddCardFunction(well._id,125,well.price)"> Go</button>
+  
+  </div>
+</div>
+</div>
+
+  
